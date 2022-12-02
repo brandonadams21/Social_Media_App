@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `http://https://social-media-app-backend-chi.vercel.app/users/${_id}/${friendId}`,
+      `http://http://localhost:3001/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
